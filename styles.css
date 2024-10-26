@@ -1,0 +1,173 @@
+:root {
+    --text-color: rgb(248, 83, 110);
+    --text-strong: white;
+    --bg-color: #1b1717;
+}
+
+body {
+    background-color: rgb(255, 159, 175);
+}
+
+.container {
+    max-width: 1300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.text-li {
+    font-family: 'Roboto';
+    font-size: 40px;
+    line-height: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    list-style: none;
+    color:  var(--text-color);
+}
+
+.text-li:nth-child(1):hover {
+    opacity: 0.8;
+    cursor: pointer;
+    color: white;
+}
+
+.text-li:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.text-li:nth-child(1):active {
+    opacity: 0.5;
+    cursor: pointer;
+    color: white;
+}
+
+.text-li:active {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.text-li:not(last-child) {
+    margin-right: 30px;
+}
+
+.text-p {
+    margin-left: 40px;
+    font-size: 10px;
+    color: white;
+}
+
+.boxes {
+    display: flex;
+}
+
+.box-a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 83, 110);
+    opacity: 0.5;
+}
+
+.box-a:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.box-a:active {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.box-b {
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    opacity: 0.8;
+}
+
+.box-text {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.box-strong {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-strong);
+    cursor: pointer;
+}
+
+.box-c {
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    opacity: 0.9;
+}
+
+.box-d {
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+}
+
+.box-e {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 83, 110);
+    opacity: 0.5;
+}
+
+.box-e:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.box-e:active {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.box-f {
+    position: absolute;
+    bottom: 80px;
+    left: 163px;
+    padding: 5px 80px;
+    border-radius: 2px;
+    background-color: var(--bg-color);
+}
+
+.box-f-text {
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--text-strong);
+}
